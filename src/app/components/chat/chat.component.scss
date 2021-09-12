@@ -1,0 +1,45 @@
+@import "../../../globals";
+
+.contact-info {
+	display: flex;
+	align-items: center;
+
+	padding: 1rem 1.4rem;
+
+	border-radius: 0 0 1.4rem 1.4rem;
+	background-color: $primary;
+
+	.profile-pic {
+		width: 65px;
+		height: 65px;
+		border-radius: 25px;
+	}
+
+	.info-container {
+		margin-left: .8rem;
+		line-height: 1.6rem;
+		
+		.name {	
+			font-size: 1.4rem;
+			color: $text-secondary;
+			font-weight: 500;
+		}
+
+		.status {
+			font-size: 1.1rem;
+			font-weight: 400;
+			color: $text-secondary-muted;
+		}
+	}
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	font-weight: 600;
+}

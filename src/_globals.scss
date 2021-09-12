@@ -1,0 +1,29 @@
+/* Colors */
+$background: #181818;
+$background-light: #fafafc;
+
+$text-primary: #0c0c0c;
+$text-primary-muted: #444444;
+$text-secondary: #fafafc;
+$text-secondary-muted: #c0c0c0;
+
+$primary-light: #7a37d1;
+$primary: #4800ce;
+$primary-dark: #2c00a5;
+$primary-darker: #180052;
+
+$secondary: #4800ce;
+
+/* Chat */
+$received-message: #6704a8;
+$received-message-bubble: #7a37d118;
+
+$sent-message: #555555;
+$sent-message-bubble: #0000000c;
+
+/* Fonts */
+$font-primary: 'Jost', sans-serif;
+
+@mixin default-shadow() {
+	box-shadow: 0px 4px 10px -5px rgba(0,0,0,0.75);
+}

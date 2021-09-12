@@ -1,0 +1,25 @@
+@import "../../../../globals";
+
+.received-message {
+	display: flex;
+	align-self: flex-start;
+	color: $received-message;
+	background-color: $received-message-bubble;
+	width: auto;
+	margin: 3px 0;
+	padding: 1rem;
+	line-height: 1rem;
+	border-radius: 5px 25px 25px 25px;
+}
+
+.sent-message {
+	display: flex;
+	align-self: flex-end;
+	color: $sent-message;
+	background-color: $sent-message-bubble;
+	width: auto;
+	margin: 3px 0;
+	padding: 1rem;
+	line-height: 1rem;
+	border-radius: 25px 5px 25px 25px;
+}
