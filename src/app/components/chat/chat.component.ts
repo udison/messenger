@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { faChevronLeft, faPhoneAlt, faEllipsisV, faPlus, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
 	selector: 'app-chat',
@@ -6,6 +7,11 @@ import { Component } from "@angular/core";
 	styleUrls: [ 'chat.component.scss' ]
 })
 export class ChatComponent {
+	backIcon = faChevronLeft;
+	callIcon = faPhoneAlt;
+	optionsIcon = faEllipsisV;
+	plusIcon = faPlus;
+	sendIcon = faPaperPlane;
 
 	contact = {
 		name: 'Anya Taylor-Joy',

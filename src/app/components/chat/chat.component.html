@@ -1,15 +1,89 @@
-<div class="contact-info">
-	<img class="profile-pic" src="{{ contact.photo }}" alt="contact picture">
-	<div class="info-container">
-		<p class="name">{{ contact.name }}</p>
-		<p class="status">{{ contact.status }}</p>
+<div class="container">
+	<div class="contact-info">
+		<button class="back">
+			<fa-icon [icon]="backIcon"></fa-icon>
+			<img class="profile-pic" src="{{ contact.photo }}" alt="contact picture">
+		</button>
+		<div class="info-container">
+			<p class="name">{{ contact.name }}</p>
+			<p class="status">{{ contact.status }}</p>
+		</div>
+		<div class="buttons-container">
+			<button class="call">
+				<fa-icon [icon]="callIcon"></fa-icon>
+			</button>
+
+			<button class="more-options">
+				<fa-icon [icon]="optionsIcon"></fa-icon>
+			</button>
+		</div>
 	</div>
-</div>
 
-<div class="messages">
-	<app-message message="Hey there!" [sent]="false"></app-message>
-	<app-message message="How's going?" [sent]="false"></app-message>
+	<div class="messages">
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
 
-	<app-message message="Sup!"></app-message>
-	<app-message message="Everything alright, and you?"></app-message>
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
+
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
+
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
+
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
+
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
+
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
+
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
+
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+
+		<app-message message="Hey there!" [sent]="false"></app-message>
+		<app-message message="How's going?" [sent]="false"></app-message>
+
+		<app-message message="Sup!"></app-message>
+		<app-message message="Everything alright, and you?"></app-message>
+	</div>
+
+	<div class="footer">
+		<div class="input-container">
+			<button class="plus">
+				<fa-icon [icon]="plusIcon"></fa-icon>
+			</button>
+			<input type="text" placeholder="Type your message here">
+			<button class="send">
+				<fa-icon [icon]="sendIcon"></fa-icon>
+			</button>
+		</div>
+	</div>
 </div>
